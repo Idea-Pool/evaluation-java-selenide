@@ -12,7 +12,6 @@ public abstract class BaseTest {
     @BeforeClass
     public static void setup() {
         Configuration.headless = false;
-        Configuration.browser = "chrome";
         Configuration.startMaximized = true;
         Configuration.screenshots = true;
         Configuration.reportsFolder = "target/surefire-reports";
