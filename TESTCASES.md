@@ -36,7 +36,7 @@
 1. **And** Get started button should be visible in the hero section
 1. **When** Get started button is clicked in the hero section
 1. **Then** the URL should be https://angular.io/start
-1. **And** the title on the content should be "Getting Started with Angular: Your First App"
+1. **And** the title on the content should be "Angular - Introduction to the Angular Docs"
 
 ## `TC-2` Checking search field on landing page
 
@@ -67,7 +67,7 @@
 1. **Then** The default checkbox should be enabled
 1. **And** The disabled checkbox should be disabled
 1. **And** The default checkbox should be unchecked
-1. **When** The default chdckbox is clicked on
+1. **When** The default checkbox is clicked on
 1. **Then** The default checkbox should be checked
 
 ## `TC-5` Interaction with radio form elements

@@ -1,38 +1,29 @@
-> To use this template, clone a new repository based on this and
-> 1. Fill out this README.md, guided by the tasks below
-> 1. Implement the test cases in the choosen framework which are listed in [TESTCASES.md](TESTCASES.md)
-> 1. Delete this quotation
-> 1. Delete tasks from all files
-
-# evaluation-java-template
-
-- [ ] Update name to evaluation-java-(framework name) here and in pom.xml too
-
-This is a template repository to create test-ware for evaluating certain (Java) test automation tools.
-
-- [ ] Update description to describe purpose of this repository, e.g. This is a test-ware for evaluation FRAMEWORK test automation tool.
+# evaluation-java-selenide
 
 ## Prerequisites
 
 1. Java JDK v8
 1. Maven 3
-1. [ ] Add additional prerequisites if necessary
 
 ## Framework used
 
-- [ ] Add name of the framework
-- [ ] Add URL to the homepage and API docs of the framework
-- [ ] Add brief description of the framework
+- Name: Selenide Framework
+- Home page: https://selenide.org/
+- Documentation: https://selenide.org/documentation.html
+- Quick tutorial: https://vimeo.com/107647158
+- Selenide is a framework for test automation powered by Selenium WebDriver that brings the following advantages:
+    - Concise fluent API for tests Ajax support for stable tests Powerful selectors.
+    - Simple configuration. 
+    - You don't need to think how to shutdown browser, handle timeouts and StaleElementExceptions or search for relevant log lines, debugging your tests.
+    - Just focus on your business logic and let Selenide do the rest!
 
 ## Test cases
 
 The implemented test cases can be found in [TESTCASES.md](TESTCASES.md).
 
 ## Setup
-- [ ] `mvn install`
-- [ ] Add additional setup instructions if necessary
+- `mvn install`
 
 ## Execution
 
-- [ ] run `mvn test` to execute any tests (by default files named `**/*Test.java`), using the surefire plugin
-- [ ] Add additional instructions to run tests
+- run `mvn test` to execute any tests (by default files named `**/*Test.java`), using the surefire plugin
