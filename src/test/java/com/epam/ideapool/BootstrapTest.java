@@ -41,7 +41,7 @@ public class BootstrapTest extends BaseTest {
     }
 
     @Test
-    public void checkingButtonFormElements() throws Exception {
+    public void checkingButtonFormElements() {
         homePage.openPage("https://getbootstrap.com/docs/4.4/components/buttons/#disabled-state").waintUntilButtonIsDisabled();
         homePage.getDisabledButton().shouldBe(Condition.matchText("Primary button"));
         homePage.getDisabledButton().shouldBe(Condition.disabled);
